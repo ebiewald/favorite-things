@@ -17,43 +17,77 @@
 	.st0{fill:#7C133D;}
 </style>
 <g>
-	<path class="st0" d="M36.4,35.5h80.8v15.2h-63v40.1h59.9v15H54.2v42.8h64.4v15.7H36.4V35.5z">
-		<animate 
+	<path class="st0" d="M36.4,35.5h80.8v15.2h-63v40.1h59.9v15H54.2v42.8h64.4v15.7H36.4V35.5z" id="theMotionPath">
+		<!-- <animate
 	    attributeName="d"
 	    to="M36.4,35.5h17.8v15.2h0v40.1h0v15h0v42.8h64.4v15.7H36.4V35.5z"
 	    dur="5s"
-	    repeatCount="indefinite" />
+	    repeatCount="indefinite" /> -->
 	</path>
-	<path class="st0" d="M148.4,35.5h9.4h8.3v11.4v6v95.5h39.4h3.8h5H226v7v8.9h-77.6V35.5z">
-		<animate 
+	<path class="st0" d="M148.4,35.5h9.4h8.3v11.4v6v95.5h39.4h3.8h5H226v7v8.9h-77.6V35.5z" id="L2">
+		<!-- <animate
 	    attributeName="d"
 	    to="M148.4,35.5h9.4H226l-0.1,17.1l-59.8,0.3v95.5h39.4l3.1,0l-0.8-95.9L226,35.5v119.9v8.9h-77.6V35.5z"
 	    dur="5s"
-	    repeatCount="indefinite" />
+	    repeatCount="indefinite" /> -->
+<!-- 	    <animateMotion dur="6s" repeatCount="indefinite">
+	      <mpath xlink:href="#theMotionPath"/>
+	    </animateMotion> -->
 	</path>
-	<path class="st0" d="M247.6,35.5h17.7v112.9h43h3.7h13.2v6v9.9h-77.6V35.5z">
-		<animate 
+	<path class="st0" d="M247.6,35.5h17.7v112.9h43h3.7h13.2v6v9.9h-77.6V35.5z" id="L">
+<!-- 		<animate
 	    attributeName="d"
 	    to="M247.6,35.5h17.7v112.9h42.4l0.1-113l17.4,0.1l0,118.8v9.9h-77.6V35.5z"
 	    dur="5s"
-	    repeatCount="indefinite" />
+	    repeatCount="indefinite" /> -->
 	</path>
-	<path class="st0" d="M343.7,35.5h80.8v15.2h-63v40.1h59.9v15h-59.9v42.8H426v15.7h-82.2V35.5z">
-		<animate 
+	<path class="st0" d="M343.7,35.5h80.8v15.2h-63v40.1h59.9v15h-59.9v42.8H426v15.7h-82.2V35.5z" id="E">
+<!-- 		<animate
 	    attributeName="d"
 	    to="M343.7,35.5h80.8v15.2h-63v40.1h59.9v15h-59.9v42.8H426v15.7h-82.2V35.5z"
 	    dur="5s"
-	    repeatCount="indefinite" />
+	    repeatCount="indefinite" /> -->
 	</path>
 	<path class="st0" d="M456.1,35.5h24.8l24.8,41.7l38.6,64.8V59.6V35.5h16.4v34.4v94.4h-22.8L495,92.7l-22.6-37.8v53.7v55.7h-16.2
-		v-52.7V35.5z">
-		<animate 
+		v-52.7V35.5z" id="N">
+<!-- 		<animate
 	    attributeName="d"
 	    to="M455.8,148.8l67.3-0.4l-0.2-42.4l-67-0.2l-0.2-70.4h82.4v16.7l-65.4,0.3l0.1,38l65.2,0.1v73.7l-34.8-0.2
 		l-17.3,0.2l-13.7,0l-16.5,0v-7.6V148.8z"
 	    dur="5s"
-	    repeatCount="indefinite" />
+	    repeatCount="indefinite" /> -->
 		</path>
+
+  	<circle cx="" cy="" r="5" fill="#6CC7B8">
+    	<!-- Define the motion path animation -->
+    	<animateMotion dur="6s" repeatCount="indefinite">
+      	<mpath xlink:href="#theMotionPath"/>
+    	</animateMotion>
+  	</circle>
+  	<circle cx="" cy="" r="5" fill="#6CC7B8">
+    	<!-- Define the motion path animation -->
+    	<animateMotion dur="4s" repeatCount="indefinite">
+      	<mpath xlink:href="#L2"/>
+    	</animateMotion>
+  	</circle>
+  	<circle cx="" cy="" r="5" fill="#6CC7B8">
+	    <!-- Define the motion path animation -->
+	    <animateMotion dur="6s" repeatCount="indefinite">
+	      <mpath xlink:href="#L"/>
+	    </animateMotion>
+	</circle>
+  	<circle cx="" cy="" r="5" fill="#6CC7B8">
+    	<!-- Define the motion path animation -->
+    	<animateMotion dur="7s" repeatCount="indefinite">
+      	<mpath xlink:href="#E"/>
+    	</animateMotion>
+  	</circle>
+  	<circle cx="" cy="" r="5" fill="#6CC7B8">
+	    <!-- Define the motion path animation -->
+	    <animateMotion dur="6s" repeatCount="indefinite">
+	      <mpath xlink:href="#N"/>
+	    </animateMotion>
+	</circle>
 </g>
 </svg>
 
